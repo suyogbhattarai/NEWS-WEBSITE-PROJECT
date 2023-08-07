@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Nunito:wght@300;400;500;600;800&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,300&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand1: #1A2650;
+    --brand2: #DC213F;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.w-100 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+
+.top .social {
+    display: none;
+}
+
+.top .fa-search {
+    display: none;
+}
+
+
+.top .date-bar p {
+    display: none;
+}
+
+.gap {
+    gap: 50px
+}
+
+.logo {
+    width: 30%;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.top .bar {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 30px;
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid;
+    position: relative;
+    padding: 20px 80px;
+    padding-bottom: 110px;
+
+
+}
+
+.top .social {
+    display: inline-block;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.top .icons .fa-search {
+    display: flex;
+    font-size: 20px;
+}
+
+
+
+
+.top .date-bar p {
+    display: flex;
+    font-size: 20px;
+}
+
+.logo {
+    position: absolute;
+    width: 300px;
+    height: 65.47px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40%;
+}
+
+.gap {
+    gap: 50px
+}
+
+.top .bar {
+    display: flex;
+}
+
+.top .bar {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    font-size: 25px;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+}
+
+/* top css for desktop ends  */
+
+/* Header menu css for desktop starts  */
+.header-menu{width: 900px;margin: auto;padding: 20px;}
+.header-menu nav ul li{list-style: none;font-size: 17px;}
+
+.header-menu nav ul{display: flex;gap: 20px;justify-content: center;align-items: center;}
+a{text-decoration: none;color: black;transition: 0.5s;}
+a:hover{color:red;}
+nav  li a .fa-home {font-size: 25px;background-color: var(--brand1);color: white;border-radius: 10px;padding: 10px;transition: 0.5s;}
+nav  li a .fa-home:hover{background-color: var(--brand2);}
+
+
+
+
+/* Header menu css for desktop End */
+
+    
+
+    
+   
